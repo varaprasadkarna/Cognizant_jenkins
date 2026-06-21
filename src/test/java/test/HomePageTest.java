@@ -34,8 +34,6 @@ public class HomePageTest {
     @Test
     public void loginIntoWeb() throws InterruptedException{
     	hp.Login("student","Password123");
-    	String res=driver.findElement(By.id("error")).getText();
-    	System.out.println(res);
     	Thread.sleep(3000);
     	driver.close();
     }
