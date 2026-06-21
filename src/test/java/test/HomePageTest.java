@@ -23,7 +23,7 @@ public class HomePageTest {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        driver.get("https://practicetestautomation.com/practice-test-login/");
 
    
 
@@ -32,7 +32,7 @@ public class HomePageTest {
 
     @Test
     public void loginIntoWeb() {
-    	hp.Login("Admin","admin123");
+    	hp.Login("student","Password123");
     }
 }
 

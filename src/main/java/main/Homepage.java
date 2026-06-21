@@ -22,7 +22,7 @@ public class Homepage {
     @FindBy(name="password")
     WebElement password;
     
-    @FindBy(xpath="//button[text()=' Login ']")
+    @FindBy(xpath="//button[text()='Submit']")
     WebElement login;
 
     // Methods
