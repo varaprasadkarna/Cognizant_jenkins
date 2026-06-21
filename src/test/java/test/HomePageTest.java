@@ -24,7 +24,7 @@ public class HomePageTest {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        driver.get("https://practicetestaution.com/practice-test-login/");
+        driver.get("https://practicetestautomation.com/practice-test-login/");
 
    
 
@@ -36,7 +36,7 @@ public class HomePageTest {
     	hp.Login("vara","Password123");
     	String res=driver.findElement(By.id("error")).getText();
     	System.out.println(res);
-    	Thread.sleep(4000);
+    	Thread.sleep(2000);
     	driver.close();
     }
 }
