@@ -2,6 +2,7 @@ package test;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -23,7 +24,7 @@ public class HomePageTest {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        driver.get("https://practicetestautomation.com/practice-test-login/");
+        driver.get("https://practicetestaution.com/practice-test-login/");
 
    
 
@@ -31,8 +32,12 @@ public class HomePageTest {
     }
 
     @Test
-    public void loginIntoWeb() {
+    public void loginIntoWeb() throws InterruptedException{
     	hp.Login("vara","Password123");
+    	String res=driver.findElement(By.id("error")).getText();
+    	System.out.println(res);
+    	Thread.sleep(4000);
+    	driver.close();
     }
 }
 

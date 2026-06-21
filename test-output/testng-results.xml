@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-21T19:28:48 IST" name="Default suite" finished-at="2026-06-21T19:28:54 IST" duration-ms="5804">
+  <suite started-at="2026-06-21T21:49:07 IST" name="Default suite" finished-at="2026-06-21T21:49:15 IST" duration-ms="8642">
     <groups>
     </groups>
-    <test started-at="2026-06-21T19:28:48 IST" name="Default test" finished-at="2026-06-21T19:28:54 IST" duration-ms="5804">
+    <test started-at="2026-06-21T21:49:07 IST" name="Default test" finished-at="2026-06-21T21:49:15 IST" duration-ms="8642">
       <class name="test.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.HomePageTest@41d477ed]" started-at="2026-06-21T19:28:48 IST" name="setup" finished-at="2026-06-21T19:28:53 IST" duration-ms="4855" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.HomePageTest@3590fc5b]" started-at="2026-06-21T21:49:07 IST" name="setup" finished-at="2026-06-21T21:49:10 IST" duration-ms="3353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginIntoWeb()[pri:0, instance:test.HomePageTest@41d477ed]" started-at="2026-06-21T19:28:53 IST" name="loginIntoWeb" finished-at="2026-06-21T19:28:54 IST" duration-ms="852" status="PASS">
+        <test-method signature="loginIntoWeb()[pri:0, instance:test.HomePageTest@3590fc5b]" started-at="2026-06-21T21:49:10 IST" name="loginIntoWeb" finished-at="2026-06-21T21:49:15 IST" duration-ms="5220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginIntoWeb -->
