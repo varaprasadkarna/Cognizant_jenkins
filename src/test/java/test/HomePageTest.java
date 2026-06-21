@@ -32,7 +32,7 @@ public class HomePageTest {
 
     @Test
     public void loginIntoWeb() {
-    	hp.Login("student","Password123");
+    	hp.Login("vara","Password123");
     }
 }
 
