@@ -24,7 +24,7 @@ public class HomePageTest {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        driver.get("https://practicetestautomation.com/practice-test-login/");
+        driver.get("https://practicetestomation.com/practice-test-login/");
 
    
 
